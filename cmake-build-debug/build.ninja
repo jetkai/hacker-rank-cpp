@@ -49,31 +49,31 @@ cmake_ninja_workdir = C$:\Users\Kai\CLionProjects\hacker-rank-cpp\cmake-build-de
 
 build cmake_object_order_depends_target_hacker-rank-cpp: phony || CMakeFiles\hacker-rank-cpp.dir
 
-build CMakeFiles\hacker-rank-cpp.dir\ForLoops.cpp.obj: CXX_COMPILER__hacker-rank-cpp_Debug C$:\Users\Kai\CLionProjects\hacker-rank-cpp\ForLoops.cpp || cmake_object_order_depends_target_hacker-rank-cpp
+build CMakeFiles\hacker-rank-cpp.dir\sources\ForLoops.cpp.obj: CXX_COMPILER__hacker-rank-cpp_Debug C$:\Users\Kai\CLionProjects\hacker-rank-cpp\sources\ForLoops.cpp || cmake_object_order_depends_target_hacker-rank-cpp
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd -std:c++latest
   OBJECT_DIR = CMakeFiles\hacker-rank-cpp.dir
-  OBJECT_FILE_DIR = CMakeFiles\hacker-rank-cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles\hacker-rank-cpp.dir\sources
   TARGET_COMPILE_PDB = CMakeFiles\hacker-rank-cpp.dir\
   TARGET_PDB = hacker-rank-cpp.pdb
 
-build CMakeFiles\hacker-rank-cpp.dir\HelloWorld.cpp.obj: CXX_COMPILER__hacker-rank-cpp_Debug C$:\Users\Kai\CLionProjects\hacker-rank-cpp\HelloWorld.cpp || cmake_object_order_depends_target_hacker-rank-cpp
+build CMakeFiles\hacker-rank-cpp.dir\sources\HelloWorld.cpp.obj: CXX_COMPILER__hacker-rank-cpp_Debug C$:\Users\Kai\CLionProjects\hacker-rank-cpp\sources\HelloWorld.cpp || cmake_object_order_depends_target_hacker-rank-cpp
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd -std:c++latest
   OBJECT_DIR = CMakeFiles\hacker-rank-cpp.dir
-  OBJECT_FILE_DIR = CMakeFiles\hacker-rank-cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles\hacker-rank-cpp.dir\sources
   TARGET_COMPILE_PDB = CMakeFiles\hacker-rank-cpp.dir\
   TARGET_PDB = hacker-rank-cpp.pdb
 
-build CMakeFiles\hacker-rank-cpp.dir\InputAndOutput.cpp.obj: CXX_COMPILER__hacker-rank-cpp_Debug C$:\Users\Kai\CLionProjects\hacker-rank-cpp\InputAndOutput.cpp || cmake_object_order_depends_target_hacker-rank-cpp
+build CMakeFiles\hacker-rank-cpp.dir\sources\InputAndOutput.cpp.obj: CXX_COMPILER__hacker-rank-cpp_Debug C$:\Users\Kai\CLionProjects\hacker-rank-cpp\sources\InputAndOutput.cpp || cmake_object_order_depends_target_hacker-rank-cpp
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd -std:c++latest
   OBJECT_DIR = CMakeFiles\hacker-rank-cpp.dir
-  OBJECT_FILE_DIR = CMakeFiles\hacker-rank-cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles\hacker-rank-cpp.dir\sources
   TARGET_COMPILE_PDB = CMakeFiles\hacker-rank-cpp.dir\
   TARGET_PDB = hacker-rank-cpp.pdb
 
-build CMakeFiles\hacker-rank-cpp.dir\BasicDataTypes.cpp.obj: CXX_COMPILER__hacker-rank-cpp_Debug C$:\Users\Kai\CLionProjects\hacker-rank-cpp\BasicDataTypes.cpp || cmake_object_order_depends_target_hacker-rank-cpp
+build CMakeFiles\hacker-rank-cpp.dir\sources\BasicDataTypes.cpp.obj: CXX_COMPILER__hacker-rank-cpp_Debug C$:\Users\Kai\CLionProjects\hacker-rank-cpp\sources\BasicDataTypes.cpp || cmake_object_order_depends_target_hacker-rank-cpp
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd -std:c++latest
   OBJECT_DIR = CMakeFiles\hacker-rank-cpp.dir
-  OBJECT_FILE_DIR = CMakeFiles\hacker-rank-cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles\hacker-rank-cpp.dir\sources
   TARGET_COMPILE_PDB = CMakeFiles\hacker-rank-cpp.dir\
   TARGET_PDB = hacker-rank-cpp.pdb
 
@@ -85,7 +85,7 @@ build CMakeFiles\hacker-rank-cpp.dir\BasicDataTypes.cpp.obj: CXX_COMPILER__hacke
 #############################################
 # Link the executable hacker-rank-cpp.exe
 
-build hacker-rank-cpp.exe: CXX_EXECUTABLE_LINKER__hacker-rank-cpp_Debug CMakeFiles\hacker-rank-cpp.dir\ForLoops.cpp.obj CMakeFiles\hacker-rank-cpp.dir\HelloWorld.cpp.obj CMakeFiles\hacker-rank-cpp.dir\InputAndOutput.cpp.obj CMakeFiles\hacker-rank-cpp.dir\BasicDataTypes.cpp.obj
+build hacker-rank-cpp.exe: CXX_EXECUTABLE_LINKER__hacker-rank-cpp_Debug CMakeFiles\hacker-rank-cpp.dir\sources\ForLoops.cpp.obj CMakeFiles\hacker-rank-cpp.dir\sources\HelloWorld.cpp.obj CMakeFiles\hacker-rank-cpp.dir\sources\InputAndOutput.cpp.obj CMakeFiles\hacker-rank-cpp.dir\sources\BasicDataTypes.cpp.obj
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd
   LINK_FLAGS = /machine:X86 /debug /INCREMENTAL /subsystem:console
   LINK_LIBRARIES = kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib

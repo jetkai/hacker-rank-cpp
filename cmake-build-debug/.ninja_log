@@ -1,9 +1,14 @@
 # ninja log v5
+0	165	6983682424596509	CMakeFiles/hacker-rank-cpp.dir/BasicDataTypes.cpp.obj	5b47fdd510d2ac18
 570	709	6983677707261383	proxy_tester.exe	395350634cb37f7
-0	62	6983682206409310	build.ninja	2ce4fcee6612a4f9
+0	62	6983685481267735	build.ninja	2ce4fcee6612a4f9
 0	64	6983682246278267	CMakeFiles/hacker-rank-cpp.dir/HelloWorld.cpp.obj	5ddea4634e58d614
-11	69	6983682246328132	CMakeFiles/hacker-rank-cpp.dir/BasicDataTypes.cpp.obj	5b47fdd510d2ac18
 7	552	6983682251153666	CMakeFiles/hacker-rank-cpp.dir/InputAndOutput.cpp.obj	5d89cf884e543dbb
 3	571	6983682251328899	CMakeFiles/hacker-rank-cpp.dir/ForLoops.cpp.obj	ab8d0611314dbb8b
-0	165	6983682424596509	CMakeFiles/hacker-rank-cpp.dir/BasicDataTypes.cpp.obj	5b47fdd510d2ac18
 166	413	6983682426993557	hacker-rank-cpp.exe	f9b2e04244c26a65
+1	64	6983685481267735	build.ninja	6f07e23a13cddade
+7	172	6983685483116845	CMakeFiles/hacker-rank-cpp.dir/sources/HelloWorld.cpp.obj	d5e569028a8e6431
+10	173	6983685483126820	CMakeFiles/hacker-rank-cpp.dir/sources/BasicDataTypes.cpp.obj	9086433ebbf41d14
+3	551	6983685486900201	CMakeFiles/hacker-rank-cpp.dir/sources/InputAndOutput.cpp.obj	430c261956a68df3
+0	575	6983685487141144	CMakeFiles/hacker-rank-cpp.dir/sources/ForLoops.cpp.obj	80bfd4c30f74d797
+575	730	6983685488476302	hacker-rank-cpp.exe	ba068eafc40d996a
