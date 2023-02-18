@@ -77,6 +77,27 @@ build CMakeFiles\hacker-rank-cpp.dir\sources\BasicDataTypes.cpp.obj: CXX_COMPILE
   TARGET_COMPILE_PDB = CMakeFiles\hacker-rank-cpp.dir\
   TARGET_PDB = hacker-rank-cpp.pdb
 
+build CMakeFiles\hacker-rank-cpp.dir\sources\Functions.cpp.obj: CXX_COMPILER__hacker-rank-cpp_Debug C$:\Users\Kai\CLionProjects\hacker-rank-cpp\sources\Functions.cpp || cmake_object_order_depends_target_hacker-rank-cpp
+  FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd -std:c++latest
+  OBJECT_DIR = CMakeFiles\hacker-rank-cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles\hacker-rank-cpp.dir\sources
+  TARGET_COMPILE_PDB = CMakeFiles\hacker-rank-cpp.dir\
+  TARGET_PDB = hacker-rank-cpp.pdb
+
+build CMakeFiles\hacker-rank-cpp.dir\sources\Pointer.cpp.obj: CXX_COMPILER__hacker-rank-cpp_Debug C$:\Users\Kai\CLionProjects\hacker-rank-cpp\sources\Pointer.cpp || cmake_object_order_depends_target_hacker-rank-cpp
+  FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd -std:c++latest
+  OBJECT_DIR = CMakeFiles\hacker-rank-cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles\hacker-rank-cpp.dir\sources
+  TARGET_COMPILE_PDB = CMakeFiles\hacker-rank-cpp.dir\
+  TARGET_PDB = hacker-rank-cpp.pdb
+
+build CMakeFiles\hacker-rank-cpp.dir\sources\Arrays.cpp.obj: CXX_COMPILER__hacker-rank-cpp_Debug C$:\Users\Kai\CLionProjects\hacker-rank-cpp\sources\Arrays.cpp || cmake_object_order_depends_target_hacker-rank-cpp
+  FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd -std:c++latest
+  OBJECT_DIR = CMakeFiles\hacker-rank-cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles\hacker-rank-cpp.dir\sources
+  TARGET_COMPILE_PDB = CMakeFiles\hacker-rank-cpp.dir\
+  TARGET_PDB = hacker-rank-cpp.pdb
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target hacker-rank-cpp
@@ -85,7 +106,7 @@ build CMakeFiles\hacker-rank-cpp.dir\sources\BasicDataTypes.cpp.obj: CXX_COMPILE
 #############################################
 # Link the executable hacker-rank-cpp.exe
 
-build hacker-rank-cpp.exe: CXX_EXECUTABLE_LINKER__hacker-rank-cpp_Debug CMakeFiles\hacker-rank-cpp.dir\sources\ForLoops.cpp.obj CMakeFiles\hacker-rank-cpp.dir\sources\HelloWorld.cpp.obj CMakeFiles\hacker-rank-cpp.dir\sources\InputAndOutput.cpp.obj CMakeFiles\hacker-rank-cpp.dir\sources\BasicDataTypes.cpp.obj
+build hacker-rank-cpp.exe: CXX_EXECUTABLE_LINKER__hacker-rank-cpp_Debug CMakeFiles\hacker-rank-cpp.dir\sources\ForLoops.cpp.obj CMakeFiles\hacker-rank-cpp.dir\sources\HelloWorld.cpp.obj CMakeFiles\hacker-rank-cpp.dir\sources\InputAndOutput.cpp.obj CMakeFiles\hacker-rank-cpp.dir\sources\BasicDataTypes.cpp.obj CMakeFiles\hacker-rank-cpp.dir\sources\Functions.cpp.obj CMakeFiles\hacker-rank-cpp.dir\sources\Pointer.cpp.obj CMakeFiles\hacker-rank-cpp.dir\sources\Arrays.cpp.obj
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd
   LINK_FLAGS = /machine:X86 /debug /INCREMENTAL /subsystem:console
   LINK_LIBRARIES = kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib

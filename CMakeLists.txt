@@ -3,4 +3,4 @@ project(hacker-rank-cpp)
 
 set(CMAKE_CXX_STANDARD 23)
 
-add_executable(hacker-rank-cpp sources/ForLoops.cpp sources/HelloWorld.cpp sources/InputAndOutput.cpp sources/BasicDataTypes.cpp)
+add_executable(hacker-rank-cpp sources/ForLoops.cpp sources/HelloWorld.cpp sources/InputAndOutput.cpp sources/BasicDataTypes.cpp sources/Functions.cpp sources/Pointer.cpp sources/Arrays.cpp)
